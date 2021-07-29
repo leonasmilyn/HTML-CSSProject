@@ -1,19 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: black;
 }
 
 header {
-  background-color: white;
   text-align: right;
+}
+
+button.navbar-toggler {
+  background-color: black;
+  position: absolute;
+  right: 50px;
+  top: 10px;
 }
 
 #logo {
   text-align: left;
-  padding-top: 5px;
   padding-right: 1300px;
-  margin-bottom: -25px;
   display: inline-block;
 }
+
+#collapsibleNavbar {
+  background-color: white;
+  padding-left: 25px;
+  /* position: absolute; */
+}
+
+.navbar-collapse {
+  text-align: center;
+  /* padding-left: 200px; */
+}
+
+#collapsibleNavbar li a {
+  color: black;
+  text-align: center;
+}
+
+#collapsibleNavbar li a:hover {
+  background-color: black;
+  color: white;
+}
+
+.glyphicon-search {
+  margin-top: 1px;
+}
+
+/* .navbar-toggler-icon {
+  border: 5px solid black;
+} */
 
 #bar {
   text-align: center;
@@ -27,7 +64,7 @@ span {
 }
 
 #i1 {
-  opacity: 50%;
+  /* opacity: 50%; */
   text-align: center;
   margin-bottom: -2px;
 }
